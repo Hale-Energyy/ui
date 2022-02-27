@@ -39,7 +39,9 @@ module.exports = configure(function (ctx) {
       "roboto-font", // optional, you are not bound to it
       "material-icons", // optional, you are not bound to it
     ],
-
+    bin:{
+      linuxAndroidStudio:'/snap/android-studio/current/android-studio/bin/studio.sh'
+    },
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
       vueRouterMode: "hash", // available values: 'hash', 'history'
@@ -142,7 +144,7 @@ module.exports = configure(function (ctx) {
       manifest: {
         name: `Quasar App`,
         short_name: `Quasar App`,
-        description: `A Quasar Framework app`,
+        description: `Hale`,
         display: "standalone",
         orientation: "portrait",
         background_color: "#ffffff",
