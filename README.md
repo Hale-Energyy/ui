@@ -1,7 +1,7 @@
 # Quasar App (hale)
 
 A Quasar Framework app
-
+(https://main.dq24r1u38ljxs.amplifyapp.com/#/)
 ## Install the dependencies
 
 ```bash
